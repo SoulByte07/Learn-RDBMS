@@ -1,5 +1,8 @@
-**/main.py/**
-**/pyproject.toml/**
-**/uv.lock/**
-**/.venv/**
-**/.python-version/**
+# Ignore specific files
+**/main.py
+**/pyproject.toml
+**/uv.lock
+**/.python-version
+
+# Ignore the virtual environment directory
+**/.venv/
