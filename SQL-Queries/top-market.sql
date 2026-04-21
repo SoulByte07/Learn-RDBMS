@@ -1,5 +1,5 @@
 select quantity, country 
 from products
-order by quantity desc
 group by country
+order by quantity desc
 limit 5;
