@@ -1,5 +1,5 @@
-SELECT customerid, SUM(quantity) as total_quantity
-FROM products
-GROUP BY customerid
-ORDER BY total_quantity DESC
-LIMIT 5;
+select customerid, sum(unitprice * quantity) as totalpurchase
+from products
+group by customerid 
+order by totalpurchase desc
+limit 10;
