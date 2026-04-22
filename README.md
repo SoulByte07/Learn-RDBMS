@@ -1,30 +1,25 @@
 
-\<div align="center"\>
-\<a id="readme"\>\</a\>
-\<h1\>📊 Retail SQL Insights\</h1\>
-\<p\>Transforming raw transactional logs into high-level business intelligence.\</p\>
+# 📊 Retail SQL Insights
+Transforming raw transactional logs into high-level business intelligence.\</p\>
 
-\</div\>
 
 -----
 
 ### 📖 Table of Contents
 
-  - [Description](https://www.google.com/search?q=%23description)
-  - [✨ Features](https://www.google.com/search?q=%23features)
-  - [🚀 Quick Start](https://www.google.com/search?q=%23quick-start)
-  - [⚙️ Configuration](https://www.google.com/search?q=%23configuration)
-  - [🛠️ Usage](https://www.google.com/search?q=%23usage)
-  - [🗺️ Roadmap](https://www.google.com/search?q=%23roadmap)
-  - [📄 License](https://www.google.com/search?q=%23license)
+  - Description
+  - ✨ Features
+  - 🚀 Quick Start
+  - ⚙️ Configuration
+  - 🛠️ Usage
+  - 🗺️ Roadmap
+  - 📄 License
 
-\<a id="description"\>\</a\>
 
 ## 📝 Description
 
 This project showcases a production-ready SQL analytical suite designed for a high-volume retail environment. It bridges the gap between raw data engineering and business strategy by translating millions of rows into actionable insights like customer lifetime value and product affinity.
 
-\<a id="features"\>\</a\>
 
 ## ✨ Features
 
@@ -33,7 +28,6 @@ This project showcases a production-ready SQL analytical suite designed for a hi
   * **Inventory Velocity:** Tracks unique SKU movement across specific high-traffic dates.
   * **Data Cleaning:** Excludes guest/null transactions to ensure clean business reporting.
 
-\<a id="quick-start"\>\</a\>
 
 ## 🚀 Quick Start
 
@@ -54,9 +48,7 @@ This project showcases a production-ready SQL analytical suite designed for a hi
     sqlite3 retail.db < schema.sql
     ```
 
-[⬆ back to top](https://www.google.com/search?q=%23readme)
 
-\<a id="configuration"\>\</a\>
 
 ## ⚙️ Configuration
 
@@ -68,9 +60,7 @@ The queries assume the following table structure:
 | `Quantity` | INTEGER | Units per transaction |
 | `CustomerID` | INTEGER | Unique identifier (Foreign Key) |
 
-[⬆ back to top](https://www.google.com/search?q=%23readme)
 
-\<a id="usage"\>\</a\>
 
 ## 🛠️ Usage
 
@@ -103,9 +93,7 @@ GROUP BY invoiceno
 HAVING COUNT(DISTINCT description) = 2;
 ```
 
-[⬆ back to top](https://www.google.com/search?q=%23readme)
 
-\<a id="roadmap"\>\</a\>
 
 ## 🗺️ Roadmap
 
@@ -113,21 +101,10 @@ HAVING COUNT(DISTINCT description) = 2;
   - [ ] Automate daily reports using **AWS Lambda** (Python).
   - [ ] Build a **Power BI** dashboard for visual stakeholder reporting.
 
-\<a id="license"\>\</a\>
 
 ## 📄 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
-[⬆ back to top](https://www.google.com/search?q=%23readme)
 
------
 
-### 📋 Summary for you:
-
-  * **File path:** `README.md`
-  * **Style:** Styled (Centered + Emojis)
-  * **Placeholder values to replace:** \* `USER` in the clone URL.
-      * `schema.sql` (if you haven't saved your table creation script yet).
-
-How does that look for your portfolio? Need any specific "Shields.io" badges for Arch or DevOps added?
